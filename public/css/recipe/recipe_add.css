@@ -1,0 +1,41 @@
+#recipe_adder {
+  display: flex;
+  flex-direction: column;
+}
+
+label, .recipe_ctg_head {
+  font-size: 18px;
+}
+
+form {
+  width: 340px;
+}
+
+.text_info {
+  margin-top: 6px;
+  font-size: 18px;
+  height: 26px;
+  color: black;
+  padding: 5px;
+}
+
+.recipe_ctg_checkers {
+  margin: 10px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.recipe_ctg_checker {
+  font-size: inherit;
+}
+
+.recipe_ctg {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe_step_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 18px 0;
+}

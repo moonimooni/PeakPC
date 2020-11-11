@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="/css/recipe/recipe_add.css">
+<%- include('../includes/head.ejs') %>
+<%- include('../includes/nav.ejs') %>
+  <main>
+    <form id="recipe_adder" action="/recipe/adding" method="POST">
+      <div class="recipe_ctg">
+        <span class="recipe_ctg_head">카테고리</span>
+        <div class="recipe_ctg_checkers">
+          <div class="recipe_ctg_checker_wrapper">
+            <input type="radio" id="drink" value="drink" name="ctg">
+            <label class="recipe_ctg_checker" for="drink">음료</label>
+          </div>
+          <div class="recipe_ctg_checker_wrapper">
+            <input type="radio" id="drink" value="coffee_tea" name="ctg">
+            <label class="recipe_ctg_checker" for="drink">커피/티</label>  
+          </div>
+          <div class="recipe_ctg_checker_wrapper">
+            <input type="radio" id="drink" value="rice" name="ctg">
+            <label class="recipe_ctg_checker" for="drink">밥류</label>  
+          </div>
+          <div class="recipe_ctg_checker_wrapper">
+            <input type="radio" id="drink" value="ramyeon" name="ctg">
+            <label class="recipe_ctg_checker" for="drink">라면류</label>  
+          </div>
+          <div class="recipe_ctg_checker_wrapper">
+            <input type="radio" id="drink" value="snack" name="ctg">
+            <label class="recipe_ctg_checker" for="drink">간식</label>  
+          </div>
+        </div>
+      </div>
+      <div id="recipe_steps">
+        <div class="recipe_step_wrapper">
+          <label for="name">상품 이름</label>
+          <input class="text_info" id="name" type="text" name="name">
+        </div>
+        <div class="recipe_step_wrapper">
+          <label for="step">STEP 1</label>
+          <input class="text_info" type="text" name="step">
+        </div>
+        <div class="recipe_step_wrapper">
+          <label for="step">STEP 2</label>
+          <input class="text_info" type="text" name="step">
+        </div>
+      </div>
+      <button id="step_add">단계 추가하기</button>
+      <button id="submit">확인</button>
+    </form>
+  </main>
+  <script defer src="/js/recipe_step_adder.js"></script>
+</body>
+</html>

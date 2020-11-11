@@ -1,0 +1,18 @@
+#fixed {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+.fixed_gnb {
+  width: 900px;
+}
+.fixed_gnb_lists {
+  display: flex;
+  justify-content: space-evenly;
+}
+.fixed_gnb_link {
+  font-size: 16px;
+}
+.peak_logo {
+  width: 100px;
+}

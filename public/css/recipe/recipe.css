@@ -1,0 +1,50 @@
+#recipe_controller {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe_src {
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.recipe_src_blank {
+  font-size: 18px;
+  padding: 5px 10px;
+  color: black;
+  width: 300px;
+  height: 32px;
+  background: transparent;
+}
+
+.foods_ctg {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.food_ctg_card {
+  border-radius: 10px;
+  color: black;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  width: 200px;
+  height: 200px;
+  background-color: #fffffb;
+}
+
+.food_ctg_card:hover {
+  background-color: #eeff38;
+}
+
+.recipe_add_link {
+  font-size: 18px;
+}

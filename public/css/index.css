@@ -1,0 +1,45 @@
+header {
+  margin-top: 20px;
+}
+
+main {
+  margin-top: 40px;
+}
+
+.search {
+  display: flex;
+  /* align-items: center; */
+  width: 300px;
+  height: 32px;
+  background-color: #f5f5f5;
+}
+
+.search_blank {
+  padding: 5px 10px;
+  font-size: 20px;
+  width: 300px;
+  background: transparent;
+  color: black;
+}
+
+.peak_logo {
+  width: 400px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+.gnb {
+  margin-top: 40px;
+}
+
+.gnb_lists {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gnb_link {
+  font-size: 18px;
+}

@@ -1,0 +1,63 @@
+<link rel="stylesheet" href="/css/recipe/recipe.css">
+<%- include('../includes/head.ejs') %>
+<%- include('../includes/nav.ejs') %>
+  <main>
+    <div id="recipe_controller">
+      <form class="recipe_src" action="" method="POST">
+        <input class="recipe_src_blank" type="text" placeholder="어떤 레시피가 궁금하신가요?">
+        <button class="recipe_src_btn" type="submit">
+          <img class="search_ico" src="img/ico/search.png" alt="search_ico">
+        </button>
+      </form>
+      <div class="recipe_add">
+        <a class="recipe_add_link" href="/recipe/add">레시피 추가하기</a>
+      </div>
+    </div>
+    <nav id="foods">
+      <ul class="foods_ctg">
+          <li class="food_ctg_list">
+            <a class="food_ctg_link" href="">
+              <div class="food_ctg_card">전체</div>
+            </a>
+          </li>
+        <div class="food_ctg_card">
+          <li class="food_ctg_list">
+            <a class="food_ctg_link" href="">
+              <div class="food_ctg_card">음료</div>
+            </a>
+          </li>
+        </div>
+        <div class="food_ctg_card">
+          <li class="food_ctg_list">
+            <a class="food_ctg_link" href="">
+              <div class="food_ctg_card">커피/티</div>
+            </a>
+          </li>
+        </div>
+        <div class="food_ctg_card">
+          <li class="food_ctg_list">
+            <a class="food_ctg_link" href="">
+              <div class="food_ctg_card">밥류</div>
+            </a>
+          </li>
+        </div>
+        <div class="food_ctg_card">
+          <li class="food_ctg_list">
+            <a class="food_ctg_link" href="">
+              <div class="food_ctg_card">라면류</div>
+            </a>
+          </li>
+        </div>
+        <div class="food_ctg_card">
+          <li class="food_ctg_list">
+            <a class="food_ctg_link" href="">
+              <div class="food_ctg_card">간식</div>
+            </a>
+          </li>
+        </div>
+      </ul>
+    </nav>
+  </main>
+
+</body>
+</html>
