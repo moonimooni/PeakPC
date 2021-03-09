@@ -1,0 +1,63 @@
+section {
+  margin-top: 48px;
+  text-align: center;
+}
+
+.msg_title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.msg_from {
+  margin-bottom: 14px;
+  font-size: 20px;
+}
+
+#msg_table {
+  width: 900px;
+  text-align: center;
+}
+
+td, th {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.msg_add_line {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 900px;
+  margin-bottom: 10px;
+}
+
+.msg_form {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  margin-right: 60px;
+}
+
+.msg_add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 34px;
+  background-color: #555555;
+}
+
+
+#ctg, .msg_content, .msg_submit {
+  height: 100%;
+  margin-right: 12px;
+}
+
+.msg_content {
+  padding: 4px;
+  width: 500px;
+}
+
+.msg_submit {
+  width: 50px;
+}

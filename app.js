@@ -16,10 +16,19 @@ app.use('/contacts', (req, res, next) => {
   res.render('contacts');
 });
 app.use('/recipe/add', (req,res,next) => {
-  res.render('recipe/recipe_add')
+  res.render('recipe/recipe_add');
 });
 app.use('/recipe', (req,res,next) => {
-  res.render('recipe/recipe')
+  res.render('recipe/recipe');
+});
+app.use('/customer', (req, res, next) => {
+  res.render('customer');
+});
+app.use('/message/add', (req, res, next) => {
+  res.render('message_add');
+});
+app.use('/message', (req, res, next) => {
+  res.render('message');
 });
 app.use((req, res, next) => {
   res.render('index');

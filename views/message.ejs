@@ -1,0 +1,47 @@
+<%- include('./includes/head.ejs') %>
+<link rel="stylesheet" href="/css/msg.css">
+<%- include('./includes/nav.ejs') %>
+<main>
+  <h2 class="msg_title">전달사항</h2>
+  <h4 class="msg_from">삼전점</h4>
+  <div class="msg_add_line">
+    <form class="msg_form" action="message/add-processing" method="POST" style="display: none;">
+      <select name="ctg" id="ctg">
+        <option value="분실물">분실물</option>
+        <option value="재고">재고</option>
+        <option value="재고">정산</option>
+        <option value="고장">고장</option>
+        <option value="기타">기타</option>
+      </select>
+      <input class="msg_op msg_content" type="text" placeholder="내용을 작성해주세요" />
+      <input class="msg_op msg_submit" type="submit" value="확인">
+    </form>
+    <button class="msg_add">글쓰기</button>
+  </div>
+  <table id="msg_table">
+    <thead>
+      <th>날짜</th>
+      <th>분류</th>
+      <th>내용</th>
+      <th>처리상태</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2020-12-12</td>
+        <td>재고</td>
+        <td>커피 주문해주세요~</td>
+        <td>처리중</td>
+      </tr>
+      <tr>
+        <td>2020-12-01</td>
+        <td>분실물</td>
+        <td>김길님 신분증 내일 찾으러 오십니다.</td>
+        <td>처리완료</td>
+      </tr>
+    </tbody>
+  </table>
+</main>
+<script src="js/msg_adder.js"></script>
+</body>
+
+</html>

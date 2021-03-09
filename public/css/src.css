@@ -1,0 +1,22 @@
+#src_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.src {
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.src_blank {
+  font-size: 18px;
+  padding: 5px 10px;
+  color: black;
+  width: 300px;
+  height: 32px;
+  background: transparent;
+}

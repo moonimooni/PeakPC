@@ -1,11 +1,12 @@
 <link rel="stylesheet" href="/css/recipe/recipe.css">
+<link rel="stylesheet" href="/css/src.css">
 <%- include('../includes/head.ejs') %>
 <%- include('../includes/nav.ejs') %>
   <main>
-    <div id="recipe_controller">
-      <form class="recipe_src" action="" method="POST">
-        <input class="recipe_src_blank" type="text" placeholder="어떤 레시피가 궁금하신가요?">
-        <button class="recipe_src_btn" type="submit">
+    <div id="src_wrapper">
+      <form class="src recipe__src" action="" method="POST">
+        <input class="src_blank recipe__src_blank" type="text" placeholder="어떤 레시피가 궁금하신가요?">
+        <button class="src_btn recipe__src_btn" type="submit">
           <img class="search_ico" src="img/ico/search.png" alt="search_ico">
         </button>
       </form>

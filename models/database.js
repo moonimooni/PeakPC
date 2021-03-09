@@ -17,5 +17,6 @@ db.QnA = require('./qna')(sequelize, Sequelize);
 db.Recipe = require('./recipe')(sequelize, Sequelize);
 db.Staff = require('./staff')(sequelize, Sequelize);
 db.Tip = require('./tip')(sequelize, Sequelize);
+db.Message = require('./msg')(sequelize, Sequelize);
 
 module.exports = db;

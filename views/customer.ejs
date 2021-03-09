@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="/css/qna.css">
+<link rel="stylesheet" href="/css/src.css">
+<%- include('./includes/head.ejs') %>
+<%- include('./includes/nav.ejs') %>
+  <main>
+    <div id="src_wrapper" class="qna__src_wrapper">
+      <form class="src qna__src" action="" method="POST">
+        <input class="src_blank qna__src_blank" type="text" placeholder="어떤 문제가 발생했나요?">
+        <button class="src_btn qna__src_btn" type="submit">
+          <img class="search_ico" src="img/ico/search.png" alt="search_ico">
+        </button>
+      </form>
+    </div>
+    <table id="qnas">
+      <tbody class="qnas_list">
+        <tr class="qna">
+          <td class="q">
+            <a class="show_a" href="">
+              헤드셋이 안들려요
+            </a>
+          </td>
+          <td class="a" style="display: none;">
+            화면 오른쪽 하단 스피커 -> 소리 제어판 -> 음향 -> 체크
+          </td>
+        </tr>
+        <tr class="qna">
+          <td class="q">
+            <a class="show_a" href="">
+              마이크가 안돼요
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+  <script src="js/qna_show_a.js"></script>
+</body>
+</html>

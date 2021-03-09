@@ -1,26 +1,3 @@
-#recipe_controller {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.recipe_src {
-  margin-bottom: 28px;
-  display: flex;
-  align-items: center;
-  background-color: white;
-}
-
-.recipe_src_blank {
-  font-size: 18px;
-  padding: 5px 10px;
-  color: black;
-  width: 300px;
-  height: 32px;
-  background: transparent;
-}
-
 .foods_ctg {
   width: 800px;
   display: flex;

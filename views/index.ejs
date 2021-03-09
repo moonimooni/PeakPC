@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/all.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/msg.css">
   <title>Peak PC</title>
 </head>
-
 <body>
   <header>
     <h1 class="blind">Peak PC Staff</h1>
     <img class="peak_logo" src="img/logo.jpg" alt="PeakPC_logo">
-    <h2>STAFF</h2>
+    <h2 class="peak_logo__staff">STAFF</h2>
   </header>
   <main>
     <form class="search" action="" method="POST">
@@ -24,14 +23,41 @@
     </form>
     <nav class="gnb">
       <ul class="gnb_lists">
+        <li class="gnb_category"><a class="gnb_link" href="/message">전달사항</a></li>
+        <li class="gnb_category"><a class="gnb_link" href="/recipe">레시피</a></li>
+        <li class="gnb_category"><a class="gnb_link" href="/contacts">비상연락처</a></li>
+        <li class="gnb_category"><a class="gnb_link" href="/customer">손님응대 Q&A</a></li>
         <li class="gnb_category"><a class="gnb_link" href="">비품위치</a></li>
         <li class="gnb_category"><a class="gnb_link" href="">읽어볼만한 팁</a></li>
-        <li class="gnb_category"><a class="gnb_link" href="/recipe">레시피</a></li>
-        <li class="gnb_category"><a class="gnb_link" href="">손님응대 Q&A</a></li>
-        <li class="gnb_category"><a class="gnb_link" href="/contacts">비상연락처</a></li>
       </ul>
     </nav>
   </main>
+  <section>
+    <h2 class="msg_title">전달사항</h2>
+    <h4 class="msg_from">삼전점</h4>
+    <table id="msg_table">
+      <thead>
+        <th>날짜</th>
+        <th>분류</th>
+        <th>내용</th>
+        <th>처리상태</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2020-12-12</td>
+          <td>재고</td>
+          <td>커피 주문해주세요~</td>
+          <td>처리중</td>
+        </tr>
+        <tr>
+          <td>2020-12-01</td>
+          <td>분실물</td>
+          <td>김길님 신분증 내일 찾으러 오십니다.</td>
+          <td>처리완료</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 </body>
 
 </html>
